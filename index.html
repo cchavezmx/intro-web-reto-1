@@ -19,7 +19,7 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->    
   </head>
   <body>
-
+  <div class="navbar"></div>
   <div class="container-header">
       <!-- titulo -->
     <div class="container-title">
@@ -74,13 +74,15 @@
   
     <div class="container-testimonial">
       <div class="card-testimonial">
-        <div>
+        <div class="card-testimonial-title">
           <!-- explicar el block y el -->
           <img src="./images/image-colton.jpg" class="rounded-img"></img>
-          <h4 class="title-img-testimonial">Colton Smith </h4>
-          <span class="job-title">Verified Buyer</span>
+          <div class="card-testimonial-names">
+            <h4 class="title-img-testimonial">Colton Smith </h4>
+            <span class="job-title">Verified Buyer</span>
+          </div>
         </div>
-        <p>
+        <p class="text-center">
           "We needed the same printed design as the one we had ordered a week prior.
           Not only did they find the original order, but we also received it in time.
           Excellent!"
@@ -88,25 +90,36 @@
           
       </div>
 
-      <div class="card-testimonial">
-        <div>
+      <div class="card-testimonial" style="transform: translate(0, 10px)">
+        <div class="card-testimonial-title">
           <img src="./images/image-irene.jpg" class="rounded-img"></img>
+
+        <div class="card-testimonial-names">
           <h4 class="title-img-testimonial">Irene Roberts</h4>
           <span class="job-title">Verified Buyer</span>
         </div>
-        <p>
+
+        </div>
+
+        <p class="text-center">
           "Customer service is always excellent and very quick turn around. Completely
           delighted with the simplicity of the purchase and the speed of delivery."
         </p>
+
       </div>
 
-      <div class="card-testimonial">
-        <div>
+      <div class="card-testimonial" style="transform: translate(0, 30px)">
+
+        <div class="card-testimonial-title">
           <img src="./images/image-anne.jpg" class="rounded-img"></img>
+
+        <div class="card-testimonial-names">
           <h4 class="title-img-testimonial">Anne Wallace</h4>
           <span class="job-title">Buyer</span>
+        </div>        
         </div>
-        <p>
+        <!-- texto de la tarjeta -->
+        <p class="text-center">
           "Put an order with this company and can only praise them for the very high
           standard. Will definitely use them again and recommend them to everyone!"
         </p>
@@ -115,11 +128,13 @@
     </div>
     
     <!-- footer -->
+  <div class="footer">
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+  </div>
   </body>
 </html>
