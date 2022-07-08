@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+::root {
+  Dark-Magenta: hsl(300, 43%, 22%);
+  Soft-Pink: hsl(333, 80%, 67%);
+  Dark-Grayish: hsl(303, 10%, 53%);
+  Light-Grayish: hsl(300, 24%, 96%);
+  White: hsl(0, 0%, 100%)
+
+}
+
+body {
+  background-color: hsl(0, 0%, 100%);
+  font-family: 'League Spartan', sans-serif;
+  font-size: 15px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.titles {
+  color: hsl(300, 43%, 22%)
+}
+
+.negrita-font {
+  font-weight: 700;
+}
+
+.start {
+  content: url('./images/icon-star.svg');
+}
+
+ul{
+  list-style-type: none
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.rating {
+  padding: 10px;
+  width: 330px;
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.rating div {
+  display: inline-block;
+  margin: 0 10px;
+
+}
+
+.conteiner-rating{
+  width: 50%;
+  /* background-color:hsl(228, 45%, 44%);  */
+  padding: 4px;
+}
+
+.container-title {
+  /* background-color: aquamarine; */
+  padding: 20px;
+  width: 330px;
+}
+
+.card-testimonial {
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(0, 0%, 100%);
+  display: inline-block;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+.rounded-img{
+  border-radius: 999px;
+}
+
+.title-img-testimonial {
+  font-size: 20px;
+  margin: 0;
+  color:hsl(300, 24%, 96%);
+}
+
+.job-title {
+  color: hsl(333, 80%, 67%);
+}
+
+
+/* antes de esto hacerlo con puras clases */
+
+/* combinadores CSS
+  https://lenguajecss.com/css/selectores/selectores-avanzados/
+*/
+
+/* Selector descendiente */
+/* .card-testimonial div img {
+  border-radius: 999px;
+} */

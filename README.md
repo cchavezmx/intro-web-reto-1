@@ -44,6 +44,11 @@ PT2 - Estructura de css
   - [ ] Diferencia entre ID y Class
 
 
+* * *
+
+PT3 - DISPLAY Y FLEXBOX
+
+* * *
 
 PT - HTML Semantico
 

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <!--  https://www.w3schools.com/css/css_rwd_viewport.asp -->
     <!-- <meta name="viewport" content="width=50" /> -->
     <!-- displays site properly based on user's device -->
@@ -15,52 +16,68 @@
     />
 
     <title>Frontend Mentor | Social proof section</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      body {
-        background-color: hsl(0, 0%, 100%);
-      }
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->    
   </head>
   <body>
     <!-- titulo -->
-  <div>
-    <div>
+  <div class="container-title">
+    <h1 class="titles">
       10,000+ of our users love our products.
-    </div>
+    </h1>
 
-    <div>
+    <p class="titles">
       We only provide great products combined with excellent customer service.
       See what our satisfied customers are saying about our services.
-    </div>
+    </p>
   </div>
 
     <!-- reated secciont -->
     
-    <div>
+    <div class="conteiner-rating">
       <ul>
-        <li>Rated 5 Stars in Reviews</li>
-        <li>Rated 5 Stars in Report Guru</li>
-        <li>Rated 5 Stars in BestTech</li>
+        <li class="titltes negrita-font rating" style="transform: translate(10px, 0)">
+          <div>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+          </div>
+          Rated 5 Stars in Reviews
+        </li>
+        <li class="titltes negrita-font rating" style="transform: translate(20px, 0)">
+          <div>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+          </div>
+          Rated 5 Stars in Report Guru
+        </li>
+        <li class="titltes negrita-font rating" style="transform: translate(30px, 0)">
+          <div>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+            <span class="start"></span>
+          </div>
+          Rated 5 Stars in BestTech
+        </li>
       </ul>
     </div>
 
     <!-- testimonial section -->
   
     <div>
-      <div>
+
+      <div class="card-testimonial">
         <div>
           <!-- explicar el block y el -->
-          <h4>Colton Smith </h4>
-          <span>Verified Buyer</span>
+          <img src="./images/image-colton.jpg" class="rounded-img"></img>
+          <h4 class="title-img-testimonial">Colton Smith </h4>
+          <span class="job-title">Verified Buyer</span>
         </div>
         <p>
           "We needed the same printed design as the one we had ordered a week prior.
@@ -69,18 +86,31 @@
         </p>
           
       </div>
-      <div>
-        Irene Roberts 
-        Verified Buyer
-        "Customer service is always excellent and very quick turn around. Completely
-        delighted with the simplicity of the purchase and the speed of delivery."
+
+      <div class="card-testimonial">
+        <div>
+          <img src="./images/image-irene.jpg" class="rounded-img"></img>
+          <h4 class="title-img-testimonial">Irene Roberts</h4>
+          <span class="job-title">Verified Buyer</span>
+        </div>
+        <p>
+          "Customer service is always excellent and very quick turn around. Completely
+          delighted with the simplicity of the purchase and the speed of delivery."
+        </p>
       </div>
-      <div>
-        Anne Wallace 
-        Verified Buyer
-        "Put an order with this company and can only praise them for the very high
-        standard. Will definitely use them again and recommend them to everyone!"
+
+      <div class="card-testimonial">
+        <div>
+          <img src="./images/image-anne.jpg" class="rounded-img"></img>
+          <h4 class="title-img-testimonial">Anne Wallace</h4>
+          <span class="job-title">Buyer</span>
+        </div>
+        <p>
+          "Put an order with this company and can only praise them for the very high
+          standard. Will definitely use them again and recommend them to everyone!"
+        </p>
       </div>
+
     </div>
     
     <!-- footer -->
