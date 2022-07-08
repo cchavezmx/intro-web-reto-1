@@ -46,7 +46,12 @@ PT2 - Estructura de css
 
 * * *
 
-PT3 - DISPLAY Y FLEXBOX
+PT3 - DISPLAY
+ - [ ] Abosoulte
+ - [ ] None
+ - [ ] FlexBox
+ - [ ] Grid
+
 
 * * *
 
